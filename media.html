@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Responsive Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* .container { */
+            /* display: grid; */
+            /* grid-template-columns: 100% 100% 100%; */
+            /* width: 100%; */
+        /* } */
+
+        .container {
+        /* display: grid; */
+        grid-template-columns: 100% 100% 100%;
+        width: 100%;
+        
+    }
+    @media (min-width: 600px) and (max-width: 1024px) {
+            .container {
+                display: grid;
+                grid-template-columns: 50% 25% 25%;
+                width: 100%;
+            }
+        }
+    @media(min-width: 1024px) {
+            .container {
+                display: grid;
+                grid-template-columns: 50% 25% 25%;
+                width: 100%;
+            }
+        }
+        .half-width,
+        .quarter-width {
+            height: 200px;
+        }
+        .half-width {
+            background-color: lightblue;
+        }
+        .quarter-width {
+            background-color: lightcoral;
+        }
+        .quarter-width:nth-child(3) {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="half-width"></div>
+        <div class="quarter-width"></div>
+        <div class="quarter-width"></div>
+    </div>
+</body>
+</html>
