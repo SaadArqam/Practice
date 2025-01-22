@@ -1,1 +1,1 @@
-This repo includes all the python pojects and codes
+This repo contains all the mini projects made for practice or fum purpose 
