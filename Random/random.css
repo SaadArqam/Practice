@@ -1,0 +1,19 @@
+.container{
+    margin-top: 3em;
+    text-align: center;
+}
+#button{
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: rgb(26, 164, 164);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#button:hover{
+    background-color: rgb(8, 85, 85);
+}
+#num{
+    font-size: 2em;
+
+}
