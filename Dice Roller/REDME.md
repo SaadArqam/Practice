@@ -21,13 +21,13 @@ A simple web-based Dice Roller application that allows users to roll multiple di
 
 ## How to Use
 1. Clone the repository or download the source files.
-2. Ensure the `dice images` folder contains images named `1.png`, `2.png`, ..., `6.png` for the dice faces.
-3. Open `dice roller.html` in any modern web browser.
+2. **Create a folder named `dice images`** and add all the dice images into it. Ensure the folder contains images named `1.png`, `2.png`, ..., `6.png` for the dice faces.
+3. Open `index.html` in any modern web browser.
 4. Use the input field to specify the number of dice you want to roll.
 5. Click the **Roll Dice** button to see the results and corresponding dice images.
 
 ## File Descriptions
-### `dice roller.html`
+### `index.html`
 - Defines the structure of the Dice Roller application.
 - Includes input for specifying the number of dice and a button to roll them.
 - Displays the results and images dynamically.
